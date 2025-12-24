@@ -1,0 +1,8 @@
+{
+  "id": "string",
+  "source": "string",
+  "severity": "low | medium | high | critical",
+  "summary": "string",
+  "confidence": "number",
+  "timestamp": "ISO-8601"
+}
