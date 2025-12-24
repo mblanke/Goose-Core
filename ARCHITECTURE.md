@@ -61,3 +61,40 @@ It is conceptual by design and avoids implementation detail.
 - Clear ownership
 - Shared analyst experience
 - Independent evolution of capabilities
+
+
+
+---
+
+## Analyst Assistance via AI Agents
+
+Both GooseStrike and ThreatHunt include analyst-assist agents.
+
+Agents exist to:
+- Guide analysts through workflows
+- Explain data, findings, and options
+- Suggest next investigative or operational steps
+- Reduce cognitive load without replacing judgment
+
+Agents do NOT act autonomously or bypass controls.
+
+---
+
+## Agent Execution Model
+
+Agents may use one or more of the following LLM backends:
+
+- Local models (on-device or on-prem)
+- Networked models (shared internal inference services)
+- Online models (external hosted APIs)
+
+The choice of backend is configurable and context-dependent.
+
+---
+
+## Agent Boundaries
+
+- Agents provide guidance, not authority
+- Agents do not execute actions directly
+- Agents do not modify data without approval
+- All agent output is advisory and attributable
